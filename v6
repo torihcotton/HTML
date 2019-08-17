@@ -55,7 +55,7 @@ body, html {
 
 <div class="top">
   <div class="bar"id="myNavbar">
-    <a class="bar-item w3-button  w3-hover-black hide-small hide-large right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+    <a class="bar-item w3-button  w3-hover-yellow hide-small hide-large right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       ☗
     </a>
     <a href="#home" class="header" 
