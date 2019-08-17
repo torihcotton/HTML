@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<title>Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lucida Sans Unicode";}
+body, html {
+  height: 100%;
+  color: #2F4F4F;
+  line-height: 2;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Header Image) */
+.bgimg-1 {
+  background-image: url('https://images.pexels.com/photos/1037999/pexels-photo-1037999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  min-height: 100%;
+}
+
+/* Second image (Project 1) */
+.bgimg-2 {
+  background-image: url("https://images.pexels.com/photos/1037995/pexels-photo-1037995.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  min-height: 100%;
+}
+
+/* Third image (Project 2) */
+.bgimg-3 {
+  background-image: url("https://images.pexels.com/photos/1037994/pexels-photo-1037994.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  min-height: 400px;
+}
+
+
+/* Fourth image (Project 3) */
+.bgimg-3 {
+  background-image: url("https://images.pexels.com/photos/1037994/pexels-photo-1037994.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 11 5px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+
+<div class="top">
+  <div class="bar"id="myNavbar">
+    <a class="bar-item w3-button w3-hover-black hide-small hide-large right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="header" 
+    <a href="#home" class="bar-item button">HOME  </a>
+    
+
+    <a href="#project 2" class="bar-item button button hide-small"><i class="fa fa-th"></i> PROJECT 2  </a>
+     <a href="#project 3" class="bar-item button button hide-small"><i class="fa fa-th"></i> PROJECT 3  </a>
+    <a href="#contact" class="bar-item button button hide-small"><i class="fa fa-envelope"></i> CONTACT  </a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-left" style="white-space:nowrap;">
+    <span class="left w3-padding-large w3-yellow w3-xmedium w3-wide w3-animate-opacity">WEBSITE TITLE</span>
+  </div>
+</div>
+
+<!-- Container (Project 1) -->
+<div class="w3-content w3-container w3-padding-64" id="project 1">
+  <h3 class="w3-center">PROJECT 1</h3>
+  <p class="w3-center"><em>Something Something</em></p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+    qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <div class="w3-row">
+
+
+ 
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-center"> 
+    
+  </div>
+</div>
+
+
+<!-- Container (Project 2) -->
+
+<!-- Container (Project 2) -->
+<div class="w3-content w3-container w3-padding-64" id="project 2">
+  <h4 class="w3-center">PROJECT 2</h4>
+  <p class="w3-center"><em>Something Something</em></p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+    qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <div class="w3-row">
+</div>
+
+
+<!-- Third Parallax Image with Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">FANCY TEXT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="project 3">
+  <h3 class="w3-center">CONTACT ME I GUESS?</h3>
+  <p class="w3-center"><em>more descriptive text</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Austin, Texas US<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: (512) 151515<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+      </div>
+      <p>This is some descriptive text</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+         
+
+<!-- Footer -->
+
+ <p>Im a website, this is a footer.</a></p>
+</footer>
+ 
+
+
+
+</body>
+</html>
